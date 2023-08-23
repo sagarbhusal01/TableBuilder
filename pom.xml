@@ -51,7 +51,7 @@
 <scm>
   <connection>scm:git:git://github.com/sagarbhusal01/TableBuilder.git</connection>
   <developerConnection>scm:git:ssh://github.com:sagarbhusal01/TableBuilder.git</developerConnection>
-  <url>https://github.com/sagarbhusal01/TableBuilder</url>
+  <url>https://github.com/sagarbhusal01/TableBuilder/tree/main</url>
 </scm>
 
 
@@ -64,6 +64,7 @@
 
 
 
+<build>
 
 <plugins>
     <plugin>
@@ -129,6 +130,8 @@
   </configuration>
 </plugin>
   </plugins>
+</build>
+
 
 
 
