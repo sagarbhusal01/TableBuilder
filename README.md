@@ -25,6 +25,11 @@ or like this
           ┃ 5. ┃     five       ┃     hello again!            ┃
           ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
+- --
+- [Download Jar File ](https://github.com/sagarbhusal01/TableBuilder/releases/download/Stable/TableBuilder-v1.01.jar)
+
+- --
+
 # How to use it ?
 
  - First you have to download the jar file from this repo and place it in the project file.
