@@ -1,11 +1,9 @@
-package io.github.sagarbhusal01.AllBuilders.ListingAll;
+package io.github.sagarbhusal01;
 
 
-import io.github.sagarbhusal01.Utility.Config;
-import io.github.sagarbhusal01.Utility.Utility;
-
-public class ListAllWithID {
-    public ListAllWithID(String[] DataList) {
+ class ListAll
+{
+    protected ListAll(String[] DataList ) {
 
         Utility utils = new Utility();
         Config config=new Config();
@@ -26,10 +24,9 @@ public class ListAllWithID {
 //
 //        The Row_Length gives the value needed to iterate a String of ""_"" for the given number of time.
 //        The SpaceNeeded variable is used to calculate the space used by the Data of the array while (Margin*2) is
-//        calculated as the spacing of both side the Data , 2 is the space used by the border and +3 for the three space
-//        consumed by the ID, "." and " ".
+//        calculated as the spacing of both side the Data and 2 is the space used by the border.
 //
-        int Row_Length=SpaceNeeded+(Margin*2)+2+3;
+        int Row_Length=SpaceNeeded+(Margin*2)+2;
 
 //
 //
@@ -57,7 +54,7 @@ public class ListAllWithID {
 //            For Writing the data inside the table after the space is created. The Main loop is used to simply
 //            iterate over the data
 //
-            System.out.print(i+1+". "+DataList[i]);
+            System.out.print(DataList[i]);
 
 //
 //            For Creating the right side space after the Data is written so that a border can be placed making
@@ -74,7 +71,8 @@ public class ListAllWithID {
 //
         utils.BottomHorizontalLine(Row_Length);
 //
-
     }
+
 }
+
 

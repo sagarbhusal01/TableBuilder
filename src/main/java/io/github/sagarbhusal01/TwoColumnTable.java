@@ -1,16 +1,12 @@
-package io.github.sagarbhusal01.AllBuilders.Tables;
+package io.github.sagarbhusal01;
 
-
-
-import io.github.sagarbhusal01.Utility.Config;
-import io.github.sagarbhusal01.Utility.Utility;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoColumnTable {
+  class TwoColumnTable {
 
-    public TwoColumnTable(HashMap<String,String> MappedDataList, String ColumnOneHeader, String ColumnTwoHeader) {
+      protected TwoColumnTable(HashMap<String,String> MappedDataList, String ColumnOneHeader, String ColumnTwoHeader) {
 
 
 //        ultimate goal

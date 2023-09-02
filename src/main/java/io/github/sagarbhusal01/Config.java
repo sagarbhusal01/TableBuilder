@@ -1,6 +1,6 @@
-package io.github.sagarbhusal01.Utility;
+package io.github.sagarbhusal01;
 
-public class Config
+class Config
 {
 
 
@@ -12,26 +12,26 @@ public class Config
 
 
 
-    public String getHorizontal_Line() {
+    protected  String getHorizontal_Line() {
         return this.Horizontal_Line;
 
     }
 
-    public String getVertical_Line() {
+    protected String getVertical_Line() {
         return this.Vertical_Line;
     }
 
-    public String getLower_Horizontal_Line() {
+    protected String getLower_Horizontal_Line() {
 
         return this.Lower_Horizontal_Line;
     }
 
 
-    public String getSpace() {
+    protected String getSpace() {
         return this.Space;
     }
 
-    public int getMargin() {
+    protected int getMargin() {
         return this.Margin;
     }
 }

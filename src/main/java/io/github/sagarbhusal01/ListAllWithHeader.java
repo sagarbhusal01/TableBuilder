@@ -1,11 +1,9 @@
-package io.github.sagarbhusal01.AllBuilders.ListingAll;
+package io.github.sagarbhusal01;
 
 
-import io.github.sagarbhusal01.Utility.Config;
-import io.github.sagarbhusal01.Utility.Utility;
 
-public class ListAllWithHeader {
-    public ListAllWithHeader(String[] DataList,String HeaderName) {
+  class ListAllWithHeader {
+      protected ListAllWithHeader(String[] DataList,String HeaderName) {
 
 //
 //        All the object of the classes are created here!

@@ -1,9 +1,9 @@
-package io.github.sagarbhusal01.Utility;
+package io.github.sagarbhusal01;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Utility {
+  class Utility {
     //
 //
 //
@@ -15,7 +15,7 @@ public class Utility {
 //
 //
 
-    public void TopHorizontalLine(int Row_Length)
+      protected void TopHorizontalLine(int Row_Length)
     {
         for (int i = 0; i < Row_Length; i++) {
             if(i==0)
@@ -37,7 +37,7 @@ public class Utility {
 
         }
     }
-    public void BottomHorizontalLine(int Row_Length)
+      protected void BottomHorizontalLine(int Row_Length)
     {
 
         for (int i = 0; i <Row_Length; i++) {
@@ -45,7 +45,7 @@ public class Utility {
         }
     }
 
-    public void HeaderBottomHorizontalLine(int Row_Length)
+      protected void HeaderBottomHorizontalLine(int Row_Length)
     {
         for (int i = 0; i <Row_Length; i++) {
             if(i==Row_Length-1)
@@ -59,7 +59,7 @@ public class Utility {
             }
         }
     }
-    public int Find_The_Greatest_length_of_an_Array(String[] DataList)
+      protected int Find_The_Greatest_length_of_an_Array(String[] DataList)
     {
         String longestName = DataList[0];
 
@@ -72,11 +72,11 @@ public class Utility {
         return longestName.length();
     }
 
-    public int CompareDataListAndHeaderName(String[] DataList,String HeaderName)
+      protected int CompareDataListAndHeaderName(String[] DataList,String HeaderName)
     {
         return Math.max(Find_The_Greatest_length_of_an_Array(DataList), HeaderName.length());
     }
-    public void PrintMargin(int Margin)
+      protected void PrintMargin(int Margin)
     {
         for (int i = 0; i < Margin; i++) {
             System.out.print(" ");
@@ -85,7 +85,7 @@ public class Utility {
 
 
 
-    public int CompareMappedDatalistKeyAndColumnOneHeader(
+      protected int CompareMappedDatalistKeyAndColumnOneHeader(
             HashMap<String,String> MappedDataList,
             String ColumnOneHeader
     )
@@ -101,7 +101,7 @@ public class Utility {
         return Math.max(LongestName.length(),ColumnOneHeader.length());
 
     }
-    public int CompareMappedDatalistValueAndColumnTwoHeader(
+      protected int CompareMappedDatalistValueAndColumnTwoHeader(
             HashMap<String,String> MappedDataList,
             String ColumnTwoHeader
     )
