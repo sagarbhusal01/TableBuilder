@@ -26,7 +26,7 @@ or like this
           ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
 - --
-- [Download Jar File ](https://github.com/sagarbhusal01/TableBuilder/releases/download/v1.0.2/TableBuilder-1.0.2.jar)
+- [Download Jar File ](https://github.com/sagarbhusal01/TableBuilder/releases)
 
 - --
 
