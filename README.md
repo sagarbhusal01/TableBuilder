@@ -33,7 +33,8 @@ or like this
 # How to use it ?
 
  - First you have to download the jar file from this repo and place it in the project file.
- - After that you have to create an object for the TableBuilder class
+ - After that you have to add that jar file as a dependencies into your project
+ - then create an object for the TableBuilder
 
 
 ```java
