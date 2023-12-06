@@ -11,7 +11,8 @@
           ┃     Three      ┃     hello Girls             ┃
           ┃     Two        ┃     hello Girls kbv         ┃
           ┃     five       ┃     hello again!            ┃
-          ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+          ================================================
+          
 
 or like this
 
@@ -23,7 +24,9 @@ or like this
           ┃ 3. ┃     Three      ┃     hello Girls             ┃
           ┃ 4. ┃     Two        ┃     hello Girls kbv         ┃
           ┃ 5. ┃     five       ┃     hello again!            ┃
-          ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+          =====================================================
+          
+          
 
 - --
 - [Download Jar File ](https://github.com/sagarbhusal01/TableBuilder/releases)
@@ -79,7 +82,9 @@ Which makes the table look like :
         ┃     Some secret message        ┃
         ┃     Some important message     ┃
         ┃     Some decoy message?        ┃
-        ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+        ==================================
+        
+        
 
 ListAllWithID method
 -
@@ -108,7 +113,9 @@ Which makes the table look like :
       ┃     1. Some secret message        ┃
       ┃     2. Some important message     ┃
       ┃     3. Some decoy message?        ┃
-       ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+      =====================================
+      
+       
 
 ListAllWithHeader method
 -
@@ -138,7 +145,8 @@ Which makes the table look like :
     ┃     Some secret message        ┃
     ┃     Some important message     ┃
     ┃     Some decoy message?        ┃
-    ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+    ==================================
+    
 
 TwoColumnTable method
 -
@@ -166,7 +174,8 @@ Which makes the table look like :
     ┃     secret Code        ┃     KJHj JLKJLK JkLD                           ┃
     ┃     useful message     ┃     The description that is to be conveyed     ┃
     ┃     useful Tips        ┃     How to use that tip !!                     ┃
-    ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+    ===========================================================================
+    
 
 TwoColumnTableWithID method
 -
@@ -195,7 +204,8 @@ Which makes the table look like :
     ┃ 1. ┃     secret Code        ┃     KJHj JLKJLK JkLD                           ┃
     ┃ 2. ┃     useful message     ┃     The description that is to be conveyed     ┃
     ┃ 3. ┃     useful Tips        ┃     How to use that tip !!                     ┃
-    ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+    ================================================================================
+    
 
 
 

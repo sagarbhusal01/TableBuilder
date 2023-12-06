@@ -6,7 +6,7 @@ class Config
 
     String Horizontal_Line="=";
     String Vertical_Line="┃";
-    String Lower_Horizontal_Line="▔";
+    String Lower_Horizontal_Line="=";
     String Space=" ";
     int Margin=5;
 
